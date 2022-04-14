@@ -1,5 +1,5 @@
 # TemperatureSensor
-## Build indicator
+### Build indicator
 | Indicator(3_C1r) | Arduino UNO |
 | :---: | :---: |
 | - | GND |
