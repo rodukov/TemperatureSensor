@@ -17,7 +17,7 @@
 | leg in the middle | 5V |
 | closer to S | 2 |
 
-### Build display (I2C)
+### Build display(I2C)
 📖 Here, too, a wired connection mom-dad. However, ports A4 and A5 cannot be changed even in the program code, unlike, for example, a sensor.
 | Display(I2C) | Arduino UNO |
 | :---: | :---: |
