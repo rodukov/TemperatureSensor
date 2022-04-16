@@ -15,3 +15,11 @@
 | closer to - | GND |
 | leg in the middle | 5V |
 | closer to S | 2 |
+
+### Build display (I2C)
+| Display(I2C) | Arduino UNO |
+| :---: | :---: |
+| GND | GND |
+| VCC | 5V |
+| SDA | A4 |
+| SCL | A5 |
