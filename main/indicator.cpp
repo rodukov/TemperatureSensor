@@ -1,9 +1,6 @@
-#define red 9
-#define green 10
-#define blue 11
-#define basic_delay 10
+#include "indicator.h"
 
-void setup() {
+void setup_indicator() {
   /* Pin layout on the Arduino UNO board */
   pinMode(red, OUTPUT);
   pinMode(green, OUTPUT);
@@ -11,10 +8,15 @@ void setup() {
 
 }
 
-void loop() {
+void increase(short int PortNumber) {
+  for(short int c = 0; c <= 250; c++){ analogWrite(PortNumber, c); c++; delay(basic_delay); }
+}
+
+void decrease(short int PortNumber) {
+  for(short int c = 250; c >= 0; c--){ analogWrite(PortNumber, c); c--; delay(basic_delay); }
+}
+
   /* Increasing loop 
   for(int c = 0; c <= 250; c++){ analogWrite(blue, c); c++; delay(basic_delay); } */
   /* Decreasing loop 
   for(int c = 250; c >= 0; c--){ analogWrite(blue, c); c--; delay(basic_delay); } */
-
-}
