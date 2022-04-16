@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
 
-  // loop_temperature();
+  short int t = get_temperature();
   short int h = get_humidity();
   if(h >= 65) {
     increase(blue);
