@@ -1,7 +1,9 @@
 # TemperatureSensor
+Schemes and software of the device for monitoring temperature and humidity
 ## Device assembly
+Assembling the necessary device is quite easy
 ### Build indicator(3_C1r)
-📖 Connect wires like mom-dad. Symbol `~` on the board means analog access.
+📖 Connect wires like mom-dad. Symbol `~` on the board means analog access
 | Indicator(3_C1r) | Arduino UNO |
 | :---: | :---: |
 | - | GND |
@@ -10,7 +12,7 @@
 | R | ~9 |
 
 ### Build temperature sensor(DHT11)
-📖 Connect the temperature sensor with the same wires. It can also measure humidity.
+📖 Connect the temperature sensor with the same wires. It can also measure humidity
 | Sensor(DHT11) | Arduino UNO |
 | :---: | :---: |
 | closer to - | GND |
@@ -18,7 +20,7 @@
 | closer to S | 2 |
 
 ### Build display(I2C)
-📖 Here, too, a wired connection mom-dad. However, ports A4 and A5 cannot be changed even in the program code, unlike, for example, a sensor.
+📖 Here, too, a wired connection mom-dad. However, ports A4 and A5 cannot be changed even in the program code, unlike, for example, a sensor
 | Display(I2C) | Arduino UNO |
 | :---: | :---: |
 | GND | GND |
