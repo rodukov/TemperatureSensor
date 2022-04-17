@@ -27,3 +27,11 @@ Assembling the necessary device is quite easy
 | VCC | 5V |
 | SDA | A4 |
 | SCL | A5 |
+
+## Upload the sketch to the board
+### Download
+To do this, clone the repository: `git clone https://github.com/rodukov/TemperatureSensor/` <br>
+### Import libraries
+Launch your Arduino IDE. Then import all libraries from `libs/` folder (my repository)
+### Upload sketch
+To do this, go to the `main/` folder and run the file `main.ino`. Then press the upload button in your Arduino IDE
