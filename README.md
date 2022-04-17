@@ -33,5 +33,10 @@ Assembling the necessary device is quite easy
 To do this, clone the repository: `git clone https://github.com/rodukov/TemperatureSensor/` <br>
 ### Import libraries
 Launch your Arduino IDE. Then import all libraries from `libs/` folder (my repository)
+| Library name | Description |
+| --- | :---: |
+| `Arduino-LiquidCrystal-I2C-library-master.zip` | Required for the I2C display to function |
+| `stDHT.zip` | Required for the operation of the temperature and humidity sensor(DHT) |
+| `DHT_sensor_library-1.4.3.zip` | Required for the operation of the temperature and humidity sensor(DHT) |
 ### Upload sketch
 To do this, go to the `main/` folder and run the file `main.ino`. Then press the upload button in your Arduino IDE
