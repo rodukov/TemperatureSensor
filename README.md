@@ -34,7 +34,7 @@ To do this, clone the repository: `git clone https://github.com/rodukov/Temperat
 ### Import libraries
 Launch your Arduino IDE. Then import all libraries from `libs/` folder (my repository)
 | Library name | Description |
-| --- | :---: |
+| --- | --- |
 | `Arduino-LiquidCrystal-I2C-library-master.zip` | Required for the I2C display to function |
 | `stDHT.zip` | Required for the operation of the temperature and humidity sensor(DHT) |
 | `DHT_sensor_library-1.4.3.zip` | Required for the operation of the temperature and humidity sensor(DHT) |
